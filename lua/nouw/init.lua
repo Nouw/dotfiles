@@ -1,5 +1,6 @@
 require("nouw.remap")
 require("nouw.set")
+require("nouw.packer")
 
 local augroup = vim.api.nvim_create_augroup
 local Nouw = augroup('Nouw', {})
